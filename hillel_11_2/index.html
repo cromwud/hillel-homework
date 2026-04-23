@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Колір</title>
+    <style>
+  
+        .text-block {
+            color: black;
+            font-size: 20px;
+            transition: color 0.3s ease; 
+            margin-bottom: 20px;
+        }
+
+       
+        .highlight {
+            color: red; 
+        }
+    </style>
+</head>
+<body>
+
+    <div id="myText" class="text-block">Натисни на кнопку, щоб змінити колір!</div>
+    <button id="myButton">Зміна кольору</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const text = document.getElementById('myText');
+            const btn = document.getElementById('myButton');
+            if (text && btn) {
+                btn.addEventListener('click', () => {
+                    text.classList.toggle('highlight');
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
