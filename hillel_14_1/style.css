@@ -33,7 +33,7 @@ body {
 }
 
 .nav-btn:disabled {
-    display: none; /* Приховуємо кнопку згідно з ТЗ */
+    display: none; 
 }
 
 .dots-container {
