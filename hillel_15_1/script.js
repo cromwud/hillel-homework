@@ -29,7 +29,7 @@ function save() {
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
-// 5. Добавление новой задачи
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
