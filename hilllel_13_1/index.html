@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валідація з RegEx</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <form id="contactForm" class="form">
+            <h1>Зворотній зв'язок</h1>
+
+            <div class="field-group">
+                <input type="text" id="userName" placeholder="Ваше ім'я" name="name">
+                <span class="error" id="nameError"></span>
+            </div>
+
+            <div class="field-group">
+                <input type="email" id="userEmail" placeholder="Email (з @ та крапкою)" name="email">
+                <span class="error" id="emailError"></span>
+            </div>
+
+            <div class="field-group">
+                <input type="tel" id="userPhone" placeholder="Телефон (+380...)" name="phone">
+                <span class="error" id="phoneError"></span>
+            </div>
+
+            <div class="field-group">
+                <textarea id="userMessage" placeholder="Ваше повідомлення (мін. 5 символів)" name="message"></textarea>
+                <span class="error" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="form__btn">Відправити</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

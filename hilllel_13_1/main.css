@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #0be69d;
+    --error-color: #e74c3c;
+    --bg-color: #66deb2;
+    --text-color: #2d3436;
+    --input-border: #dfe6e9;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid var(--input-border);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--text-color);
+    transition: var(--transition);
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px rgba(11, 230, 157, 0.2);
+}
+
+input.invalid, textarea.invalid {
+    border-color: var(--error-color);
+    background-color: #fffafa;
+}
+
+.error {
+    color: var(--error-color);
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 500;
+    min-height: 18px; 
+}
+
+.form__btn {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 10px;
+}
+
+.form__btn:hover {
+    background-color: #09c989;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(11, 230, 157, 0.3);
+}
+
+.form__btn:active {
+    transform: translateY(0);
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 25px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+}
