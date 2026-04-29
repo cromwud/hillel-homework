@@ -1,0 +1,18 @@
+body {
+    background-color: #2d3436; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.timer-display {
+    font-size: 80px;
+    color: #ffffff;
+    background: #1e272e;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 2px solid #0be69d;
+}
