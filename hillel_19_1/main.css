@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74abe2, #5563c1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-widget {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.weather-widget:hover {
+    transform: translateY(-5px);
+}
+
+.city {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.temp {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #222;
+    margin: 15px 0;
+}
+
+.desc {
+    text-transform: capitalize;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+button {
+    background: #5563c1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background: #4350ac;
+}
+
+button:active {
+    transform: scale(0.98);
+}
