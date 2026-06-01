@@ -1,0 +1,26 @@
+body {
+    background: #f8f9fa;
+}
+
+
+.task-text {
+    cursor: pointer;
+    flex-grow: 1; 
+    padding: 5px 0;
+    transition: color 0.2s ease;
+}
+
+.task-text:hover {
+    color: #5563c1;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d; 
+}
+
+
+.list-group-item {
+    transition: all 0.2s ease;
+}
