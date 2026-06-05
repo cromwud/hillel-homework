@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=85,n=document.getElementById("countdownDisplay");function a(){var a=Math.floor(t/60),r=t%60,o=String(a).padStart(2,"0"),c=String(r).padStart(2,"0");n.textContent="".concat(o,":").concat(c),t<=0?(clearInterval(e),n.textContent="00:00"):t--}var e=setInterval(a,1e3);a()})();

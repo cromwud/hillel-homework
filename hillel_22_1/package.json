@@ -1,0 +1,29 @@
+{
+  "name": "hillel_22_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch",
+  "start": "webpack serve --mode development",
+  "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.4",
+    "css-minimizer-webpack-plugin": "^8.0.0",
+    "mini-css-extract-plugin": "^2.10.2",
+    "sass": "^1.100.0",
+    "sass-loader": "^17.0.0",
+    "terser-webpack-plugin": "^5.6.1",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3",
+    "webpack-dev-server": "^5.2.4"
+  }
+}
