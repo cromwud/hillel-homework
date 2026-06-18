@@ -1,0 +1,42 @@
+body {
+  background-color: #0b1320; 
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.swapi-title {
+  color: #5137d4; 
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.character-card {
+  background-color: #1a2232;
+  border: 1px solid #2a3441;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.15); 
+  border-color: #5137d4;
+}
+
+.card-title {
+  color: #5137d4;
+  border-bottom: 1px solid #2a3441;
+  padding-bottom: 10px;
+}
+
+.stat-label {
+  color: #8892b0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-weight: 600;
+  color: #ffffff;
+}
