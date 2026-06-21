@@ -1,0 +1,38 @@
+.counter-card {
+  border: 1px solid #ccc;
+  padding: 30px;
+  display: inline-block;
+  background-color: #fff;
+  font-family: 'Times New Roman', Times, serif; 
+  text-align: left;
+}
+
+.counter-value {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  color: #000;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.counter-btn {
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  transition: background 0.1s;
+}
+
+.counter-btn:hover {
+  background-color: #e1e1e1;
+}
+
+.counter-btn:active {
+  background-color: #d4d4d4;
+}
