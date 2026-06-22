@@ -1,0 +1,100 @@
+.swapi-box {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+}
+
+.swapi-logo {
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  font-family: sans-serif;
+}
+
+.input-group {
+  display: flex;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #e9ecef;
+  overflow: hidden;
+  align-items: center;
+}
+
+.base-url {
+  padding: 10px 15px;
+  color: #495057;
+  font-size: 16px;
+}
+
+.endpoint-input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background: white;
+  outline: none;
+}
+
+.get-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 100%;
+  align-self: stretch;
+}
+
+.get-btn:hover {
+  background-color: #5a6268;
+}
+
+.badge-container {
+  display: flex;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.badge {
+  background-color: #6c757d;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-dark {
+  background-color: #343a40;
+}
+
+.response-display {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: left;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+pre {
+  margin: 0;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.status-text {
+  margin: 0;
+}
+
+.error-text {
+  color: red;
+}
